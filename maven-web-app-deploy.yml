@@ -18,7 +18,7 @@ spec:
   spec: 
     containers:
     - name: mavenwebappcontainer
-      image: arunkeerthi3101/project2:${BUILD_NUMBER}
+      image: arunkeerthi3101/project3:${BUILD_NUMBER}
       imagePullPolicy: Always
       ports:
       - containerPort: 8080
